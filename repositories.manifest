@@ -1,0 +1,6 @@
+: 1
+summary: cxx-modules-build2 project repository
+
+:
+role: prerequisite
+location: https://github.com/build2/libstd-modules.git#master

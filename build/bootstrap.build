@@ -1,0 +1,7 @@
+project = cxx-modules-build2
+
+using version
+using config
+using test
+using install
+using dist

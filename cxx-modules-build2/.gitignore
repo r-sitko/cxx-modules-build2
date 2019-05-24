@@ -1,0 +1,5 @@
+cxx-modules-build2
+
+# Testscript output directory (can be symlink).
+#
+test-cxx-modules-build2

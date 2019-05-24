@@ -1,0 +1,13 @@
+cxx.std = experimental
+
+using cxx
+
+hxx{*}: extension = hpp
+ixx{*}: extension = ipp
+txx{*}: extension = tpp
+mxx{*}: extension = mpp
+cxx{*}: extension = cpp
+
+# The test target for cross-testing (running tests under Wine, etc).
+#
+test.target = $cxx.target
