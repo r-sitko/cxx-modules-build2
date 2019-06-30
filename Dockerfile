@@ -16,9 +16,9 @@ RUN apt-get update -y \
 # install build2
 RUN mkdir /home/build2-build \
   && cd /home/build2-build \
-  && curl -sSfO https://download.build2.org/0.10.0/build2-install-0.10.0.sh \
-  && echo "a284d98246b2d2ca8e3e3cb92af5cfeed576b2e3d214710408b70d3dc58694ea  build2-install-0.10.0.sh" | shasum -a 256 -b -c \
-  && sh build2-install-0.10.0.sh \
+  && curl -sSfO https://download.build2.org/0.11.0/build2-install-0.11.0.sh \
+  && echo "37396ed937f94cf02d51c6b9f21c8cc0f95384a6325059eb24a5eba0affcd504  build2-install-0.11.0.sh" | shasum -a 256 -b -c \
+  && sh build2-install-0.11.0.sh \
     --yes \
     --cxx clang++ \
     --sudo false \
